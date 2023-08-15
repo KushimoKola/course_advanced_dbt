@@ -8,6 +8,14 @@ This section contains documentation from the Bingeflix Users table.
 The unique identifier of the Bingeflix user.
 {% enddocs %}
 
+{% docs bingeflix_user_count_of_subscriptions %}'
+The count of subscription per user
+{% enddocs %}
+
+{% docs bingeflix_user_first_subscription_starts_at %}'
+The initial date the user begins a subscription plan.
+{% enddocs %}
+
 ## Subscriptions
 This section contains documentation from the Bingeflix subscription table.
 
