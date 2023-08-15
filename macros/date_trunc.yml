@@ -1,0 +1,10 @@
+macros:
+  - name: date_trunc
+    descriptions: The macro is used to remote unwanted detail of a timestamp column, then converted into preferred date type
+    arguments:
+      - name: date_column
+        type: timestamp
+        description: The column containing the date timestamp
+      - name: date_part
+        type: string
+        description: The preferred date type. e.g. 'day', 'month', 'quarter', 'year'

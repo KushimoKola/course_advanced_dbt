@@ -27,6 +27,9 @@ models:
     +persist_docs:
       relation: true
       columns: true
+  core:
+    +tags:
+      - "hourly"
 
 seeds:
   dbt_project_evaluator:
