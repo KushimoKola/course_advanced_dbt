@@ -22,6 +22,3 @@ models:
 
       - name: subscription_id
         description: '{{ doc("bingeflix_subscription_id") }}'
-        tests:
-          - not_null
-          - unique

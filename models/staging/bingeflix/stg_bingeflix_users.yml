@@ -4,9 +4,6 @@ models:
     columns:
       - name: user_id
         description: '{{ doc("bingeflix_user_id") }}'
-        tests:
-          - not_null
-          - unique
 
       - name: created_at
         description: When the user was created.

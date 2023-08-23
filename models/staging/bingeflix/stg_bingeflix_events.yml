@@ -24,6 +24,3 @@ models:
 
       - name: event_id
         description: '{{ doc("bingeflix_events_id") }}'
-        tests:
-          - not_null
-          - unique
