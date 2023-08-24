@@ -7,4 +7,9 @@ In my examples, I have deleted tests that existed in upstream models but repeate
  - dbt `lineage graph/view` is a good resource to help identify relationships between models, how they are used, and determine if tests are repeated across dependent models.
 
 ## Task 2
-Added a custom generic test `column_is_active.sql` which replaced a redundant singular test. The custom generic test can also be used elsewhere - applying related logic.
+ - Added a custom generic test `column_is_active.sql` which replaced a redundant singular test. The custom generic test can also be used elsewhere - applying related logic.
+
+## Task 3
+ - Created unit test for `fct_mrr` by creating input and output csvs.
+ - After creating seeds, run `dbt build --full-refresh`
+ - Confirming that all tests pass when I run `dbt build --select fct_mrr --vars 'unit_testing: true'`
